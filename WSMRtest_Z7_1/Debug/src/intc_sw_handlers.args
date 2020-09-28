@@ -1,0 +1,12 @@
+-c
+-I"C:/Users/pmkru/workspaceS32DS.Power.2.1/WSMRtest/WSMRtest_Z7_1/include"
+-I"C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2/EWL_C/include"
+-I"C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2/EWL_C/include/pa"
+-x assembler-with-cpp
+-g3
+-mcpu=e200z7
+-specs=ewl_c9x_noio.specs
+-mbig
+-mvle
+-mregnames
+--sysroot="C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2"

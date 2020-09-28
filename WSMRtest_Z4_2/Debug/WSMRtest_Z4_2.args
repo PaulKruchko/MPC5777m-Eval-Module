@@ -1,0 +1,14 @@
+-T"C:/Users/pmkru/workspaceS32DS.Power.2.1/WSMRtest/WSMRtest_Z4_2/Project_Settings/Linker_Files/57xx_flash.ld"
+-Wl,-Map,"WSMRtest_Z4_2.map"
+-Xlinker
+--gc-sections
+-mcpu=e200z4
+-specs=ewl_c9x_noio.specs
+--sysroot="C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2"
+"./Project_Settings/Startup_Code/startup.o"
+"./src/MPC57xx__Interrupt_Init.o"
+"./src/Vector.o"
+"./src/flashrchw.o"
+"./src/intc_SW_mode_isr_vectors_MPC5777M.o"
+"./src/intc_sw_handlers.o"
+"./src/main_Z4_2.o"
