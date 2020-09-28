@@ -42,10 +42,10 @@ const uint32_t __attribute__ ((section(".cpu0_reset_vector"))) RCHW2 = (uint32_t
 const uint32_t __attribute__ ((section(".cpu0_reset_vector"))) RCHW2_0 = (uint32_t)0x1000000;
 #endif
 #if defined(TURN_ON_CPU1)
-const uint32_t __attribute__ ((section(".cpu1_reset_vector"))) RCHW2_1 = (uint32_t)0x1000000;
+const uint32_t __attribute__ ((section(".cpu1_reset_vector"))) RCHW2_1 = (uint32_t)0x1280000;
 #endif
 #if defined(TURN_ON_CPU2)
-const uint32_t __attribute__ ((section(".cpu2_reset_vector"))) RCHW2_2 = (uint32_t)0x1000000;
+const uint32_t __attribute__ ((section(".cpu2_reset_vector"))) RCHW2_2 = (uint32_t)0x1500000;
 #endif
 #endif
 #endif /* defined(START_FROM_FLASH) */
